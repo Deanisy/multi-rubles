@@ -1,7 +1,7 @@
 {
   "name": "@deanisy/multi-rubles",
   "version": "0.3.0",
-  "description": "Стоимость прописью с любыми денежными единицами",
+  "description": "Стоимость прописью с любыми наименованиями валютных единиц",
   "keywords": [
     "ruble",
     "numeral",
@@ -13,7 +13,7 @@
   "main": "./lib/rubles",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deanisy/rubles.git"
+    "url": "git+https://github.com/deanisy/multi-rubles.git"
   },
   "scripts": {
     "build": "uglifyjs lib/rubles.js -o lib/rubles.min.js -m -c",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deanisy/rubles/issues"
+    "url": "https://github.com/deanisy/multi-rubles/issues"
   },
   "directories": {
     "lib": "lib",
